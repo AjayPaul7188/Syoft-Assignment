@@ -1,0 +1,122 @@
+
+
+@media screen and (min-width: 767px) {
+    .signup-container {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to left, #2596be, #25a5be, #2587be);
+    }
+
+    .sub-container {
+        display: flex;
+        flex-direction: row;
+        height: 70vh;
+        width: 70%;
+    }
+
+    .greeting {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        background-color: #32324e;
+    }
+
+    .greeting-heading {
+        font-family: Sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .greeting-para {
+        font-family: cursive;
+        font-size: 25px;
+        color: #ffffff;
+    }
+    
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+        background-color: #ffffff;
+    }
+
+    .signup-form {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .signup-heading {
+        color: #9494b8;
+        font-family: roboto;
+    }
+
+    .signup-input-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        width: 40%;
+    }
+
+    .error-msg {
+        font-family: roboto;
+        color: red;
+        font-size: 15px;
+    }
+
+    .success-msg {
+        font-family: roboto;
+        color: green;
+        font-size: 15px;
+    }
+
+    .input-label {
+        color: #000000;
+        font-family: roboto;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .user-input {
+        border: 1px solid #b6c5ff;
+        padding: 10px;
+        border-radius: 3px;
+        color: #000000;
+    }
+
+    .submit-btn {
+        color: #ffffff;
+        background-color: #4f46e5;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 15px;
+        font-size: 15px;
+        padding: 8px;
+        margin-top: 15px;
+        font-family: roboto;
+        margin-left: 10px;
+    }
+
+    .insturct {
+        display: flex;
+        margin: 0px;
+        margin-bottom: 10px;
+        align-items: center;
+        opacity: .8;
+    }
+    .link-item {
+        margin-left: 5px;
+    }
+}
